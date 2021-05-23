@@ -1,0 +1,29 @@
+.header {
+    .row {
+        align-items: center;
+    }
+    
+    height: 50px;
+    background-color: $white;
+
+    margin-top: 3rem;
+    
+    &__nav {
+        @include navigation();
+    }
+
+    &__logo {
+        color: $black;
+        font-size: 2.4rem;
+        font-weight: 400;
+        text-decoration: none;
+
+        font-family: 'Righteous';
+    }
+
+    @media only screen and (max-width: 992px) {
+        &__nav, &__phone {
+            display: none;
+        }
+    }
+}

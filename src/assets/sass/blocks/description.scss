@@ -1,0 +1,88 @@
+.description {
+
+    min-width: 1150px;
+    min-height: 800px;
+
+    &__thumbnail {
+        width: 90px;
+        margin-bottom: 1.5rem;
+        border: 1px solid $gray;
+    }
+
+    &__image {
+        margin-top: 1.5rem;
+        width: 440px;
+    }
+
+    &__stuff {
+        margin-left: 50px;
+    }
+
+    &__header {
+        font-size: 1.4rem;
+        font-weight: 700;
+        line-height: 2.8rem;
+
+        margin-bottom: 55px;
+    }
+
+    &__features {
+        list-style: none;
+
+        &-text {
+            font-size: 1.2rem;
+            font-weight: 500;
+            line-height: 1.3rem;
+        }
+
+        &-icon {
+            
+            line-height: 0.3rem;
+        }
+    }
+
+    &__description {
+        list-style: none;
+        text-indent: -2.4rem;
+
+        &-item {
+            font-size: 1.1rem;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 1.3rem;
+            color: #8B8B8B;
+
+            margin-bottom: 1.7rem;
+        }
+    }
+
+    &__price {
+        font-size: 2.4rem;
+        font-weight: 500;
+        line-height: 2.8rem;
+
+        margin-bottom: 2.4rem;
+    }
+
+    &__button {
+        margin-bottom: 4.8rem;
+        
+        background-color: $blue;      
+        color: $white;
+        width: 200px;
+        height: 42px;       
+    }
+
+    &__more {
+        margin-top: 4rem;
+    }
+
+    &__more-element {
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+
+        margin-top: 2.2rem;        
+    }
+    
+}

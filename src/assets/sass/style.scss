@@ -1,0 +1,38 @@
+@import 'blocks/variables';
+@import 'blocks/mixins';
+@import 'blocks/inputs';
+@import 'blocks/header';
+@import 'blocks/footer';
+@import 'blocks/intro';
+@import 'blocks/announce';
+@import 'blocks/item';
+@import 'blocks/catalog';
+@import 'blocks/description';
+@import 'blocks/features';
+@import 'blocks/modal';
+
+// Bootstrap
+@import '../../../node_modules/bootstrap/scss/functions';
+@import '../../../node_modules/bootstrap/scss/variables';
+@import '../../../node_modules/bootstrap/scss/mixins';
+@import '../../../node_modules/bootstrap/scss/grid';
+
+html {
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+    background-color: $white;
+    font-family: 'Roboto', sans-serif;
+    color: $black;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;  
+}

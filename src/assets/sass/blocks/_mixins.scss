@@ -1,0 +1,30 @@
+@mixin navigation() {
+    font-size: 1rem;
+    font-weight: 500;
+
+    display: flex;
+
+    .link {
+        margin-right: 2rem;
+
+        color: $white;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+           
+    }
+}
+
+@mixin phone-link() {
+    font-size: 1rem;
+    font-weight: 500;
+    color: $white;
+    text-decoration: none;
+}
+
+@mixin two-columns() {
+    display: flex;
+    justify-content: space-between;
+}

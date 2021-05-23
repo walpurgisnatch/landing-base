@@ -1,0 +1,40 @@
+.features {
+
+  .active {
+    border-bottom: 4px solid #C4C4C4;
+  }
+
+  &__nav {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  &__link {
+    position: relative;
+    display: block;
+    padding: 11px 50px;
+
+    font-size: 18px;
+    color: $black;
+
+    cursor: pointer;
+
+  }
+
+  new-items {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+  }
+
+  popular {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+  }
+  
+}

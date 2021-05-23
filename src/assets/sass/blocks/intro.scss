@@ -1,0 +1,59 @@
+.intro {
+    min-height: 350px;
+
+    color: $black;
+    margin-top: 3.6rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    background-color: #E9EAF2;
+
+    &__title {
+        margin-top: 70px;
+        margin-bottom: 10px;
+
+        font-size: 1.8rem;
+        line-height: 2.1rem;
+        font-weight: 700;
+    }
+
+    &__subtitle {
+        margin-bottom: 1.8rem;    
+
+        font-size: 0.9rem;
+        font-weight: normal;
+        font-style: normal;
+        line-height: 1.1rem;
+    }
+
+    &__price {
+        margin-bottom: 1.5rem;
+
+        font-weight: 700;
+        font-size: 2.2rem;
+        line-height: 2.6rem;
+        color: $blue;
+    }
+
+    &__button {
+        margin-bottom: 4.8rem;
+        
+        background-color: $blue;      
+        color: $white;
+        width: 200px;
+        height: 42px;        
+    }
+
+    &__img {
+        width: 400px;
+    }
+
+    @media only screen and (min-width: 992px) {
+        text-align: left;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}

@@ -1,0 +1,91 @@
+.item {
+    margin-right: 1.5rem;
+
+    display: block;
+    max-width: 245px;
+
+    margin: 0px 0.8;
+    margin-top: 75px;
+
+    .new {
+        position: absolute;
+        left: -17px;
+        top: 22px;
+        display: block;
+        font-size: 11px;
+        padding: 5px 20px;
+        background: #085dc6;
+        color: #fff;
+    }
+
+    .popular {
+        position: absolute;
+        left: -17px;
+        top: 22px;
+        display: block;
+        font-size: 11px;
+        padding: 5px 20px;
+        background: #e7a82d;
+        color: #fff;
+    }
+    
+    &__preview {
+        width: 245px;
+        height: 245px;
+        position: relative;
+        background: #c4c4c4;    
+    }
+
+    &__image {
+        width: 245px;
+        background: #c4c4c4;
+    }
+
+    &__header {
+        font-size: 1.1rem;
+        line-height: 1.3rem;
+        font-weight: 700;
+
+        margin-top: 1.7rem;
+        margin-bottom: 0.4rem;
+    }
+
+    &__description {
+        display: block;
+        font-size: 0.8rem;
+        line-height: 0.9rem;
+        font-weight: 400;
+        color: #8b8b8b;
+
+        max-width: 225px;
+        margin-top: 0.4rem;
+        margin-bottom: 1rem;
+    }
+
+    &__price {
+        display: block;
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+        font-weight: 500;
+
+        margin-bottom: 1.2rem;
+    }
+
+    &__button {
+        display: block;
+        font-size: 1rem;
+        line-height: 1.1rem;
+        font-weight: 400;
+        color: $blue;
+
+        cursor: pointer;
+    }
+
+    &__icon {
+        margin-right: 1.4rem;
+        color: $blue;
+    }
+
+    @media only screen and (min-width: 992px) {
+    }
+}
